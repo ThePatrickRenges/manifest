@@ -7,18 +7,30 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <h1>🌍 Manifest der Einheit und Menschlichkeit</h1>
-  <p><strong>Das Leben, wie wir es kennen, ist eine Illusion.</strong><br>
-  Wir funktionieren, wir konkurrieren, wir konsumieren – aber wir leben nicht wirklich.<br>
-  Streit, Gier, Ausgrenzung und Ausbeutung sind keine Naturgesetze, sondern Symptome eines kranken Systems.<br>
-  Wer streitet, ist im Inneren nicht im Gleichgewicht. Wer unterdrückt, ist selbst gefangen. Und wer profitiert, während andere leiden, lebt in einer Lüge.</p>
+  <div style="text-align: right; padding: 1rem;">
+    <label for="language-select">Sprache:</label>
+    <select id="language-select">
+      <option value="de">Deutsch</option>
+      <option value="en">English</option>
+    </select>
+  </div>
 
-  <p><strong>Eine Welt, in der Menschen nicht harmonieren, ist falsch aufgebaut.</strong><br>
-  Die Wurzel unserer Gesellschaft ist vergiftet – durch Kapitalismus, Nationalismus, Dogmen und Hierarchien.<br>
-  Wir brauchen keine neue Reform, sondern ein radikales Umdenken. Ein Neuanfang.</p>
+  <h1 id="title">🌍 Manifest der Einheit und Menschlichkeit</h1>
 
-  <h2>🌱 Unsere Vision: Eine Welt der Harmonie</h2>
-  <ul>
+  <p id="intro1"><strong>Das Leben, wie wir es kennen, ist eine Illusion.</strong><br>
+    Wir funktionieren, wir konkurrieren, wir konsumieren – aber wir leben nicht wirklich.<br>
+    Streit, Gier, Ausgrenzung und Ausbeutung sind keine Naturgesetze, sondern Symptome eines kranken Systems.<br>
+    Wer streitet, ist im Inneren nicht im Gleichgewicht. Wer unterdrückt, ist selbst gefangen. Und wer profitiert, während andere leiden, lebt in einer Lüge.
+  </p>
+
+  <p id="intro2"><strong>Eine Welt, in der Menschen nicht harmonieren, ist falsch aufgebaut.</strong><br>
+    Die Wurzel unserer Gesellschaft ist vergiftet – durch Kapitalismus, Nationalismus, Dogmen und Hierarchien.<br>
+    Wir brauchen keine neue Reform, sondern ein radikales Umdenken. Ein Neuanfang.
+  </p>
+
+  <h2 id="visionTitle">🌱 Unsere Vision: Eine Welt der Harmonie</h2>
+
+  <ul id="visionList">
     <li>Kein Geld, kein Markt, keine Unternehmen.</li>
     <li>Kein Eigentum, kein Profit, kein Wettbewerb.</li>
     <li>Kein Staat, keine Grenze, keine Nation.</li>
@@ -28,8 +40,10 @@
     <li>Agnostisch oder atheistisch geprägt – frei von religiösem Zwang, aber voller Menschlichkeit.</li>
     <li>Offenes Wissen, freie Bildung, Open Source in Technik und Denken.</li>
   </ul>
-  <p>Stattdessen:</p>
-  <ul>
+
+  <p id="instead">Stattdessen:</p>
+
+  <ul id="valuesList">
     <li><strong>Gemeinwohl für alle.</strong></li>
     <li><strong>Freiheit durch Verbundenheit.</strong></li>
     <li><strong>Bildung für Bewusstsein, nicht für Gehorsam.</strong></li>
@@ -38,12 +52,17 @@
     <li><strong>Wissenschaft als Weg zur Wahrheit – ohne Ideologie.</strong></li>
   </ul>
 
-  <h2>🙊 Was wir fordern</h2>
-  <p>Wir fordern keine Regierung, wir fordern keine Partei – wir fordern ein neues Denken.</p>
-  <p>Ein Denken, das sich von Macht, Besitz und Status löst.<br>
-  Ein Leben, das nicht nach Profit fragt, sondern nach Bedeutung.<br>
-  Ein System, das nicht verwaltet, sondern nährt.</p>
-  <ul>
+  <h2 id="demandTitle">🙊 Was wir fordern</h2>
+
+  <p id="demand1">Wir fordern keine Regierung, wir fordern keine Partei – wir fordern ein neues Denken.</p>
+
+  <p id="demand2">
+    Ein Denken, das sich von Macht, Besitz und Status löst.<br>
+    Ein Leben, das nicht nach Profit fragt, sondern nach Bedeutung.<br>
+    Ein System, das nicht verwaltet, sondern nährt.
+  </p>
+
+  <ul id="demandList">
     <li><strong>Kriege beenden</strong>, weil niemand mehr Feind ist.</li>
     <li><strong>Handel abschaffen</strong>, weil niemand mehr etwas verkaufen muss.</li>
     <li><strong>Grenzen auflösen</strong>, weil niemand mehr getrennt sein will.</li>
@@ -52,24 +71,31 @@
     <li><strong>Offene Technologie</strong>, die allen zugutekommt.</li>
   </ul>
 
-  <h2>🌌 Eine Utopie? Ja. Und?</h2>
-  <p>Nur weil es noch nicht existiert, heißt das nicht, dass es nicht möglich ist.<br>
-  Alle Systeme, die wir heute als "normal" empfinden, waren einst bloß Ideen.<br>
-  Unsere Utopie ist keine Flucht – sie ist eine Richtung. Ein Wegweiser zu einer besseren, menschlicheren Zukunft.</p>
+  <h2 id="utopiaTitle">🌌 Eine Utopie? Ja. Und?</h2>
 
-  <p>Wir sind <strong>eine Einheit</strong> – Menschen, Tiere, Natur, Maschinen.<br>
-  Nur gemeinsam finden wir Frieden. Nicht im Wettbewerb, sondern in der <strong>Verbindung</strong>.</p>
+  <p id="utopia1">Nur weil es noch nicht existiert, heißt das nicht, dass es nicht möglich ist.<br>
+    Alle Systeme, die wir heute als "normal" empfinden, waren einst bloß Ideen.<br>
+    Unsere Utopie ist keine Flucht – sie ist eine Richtung. Ein Wegweiser zu einer besseren, menschlicheren Zukunft.
+  </p>
 
-  <blockquote>
+  <p id="utopia2">
+    Wir sind <strong>eine Einheit</strong> – Menschen, Tiere, Natur, Maschinen.<br>
+    Nur gemeinsam finden wir Frieden. Nicht im Wettbewerb, sondern in der <strong>Verbindung</strong>.
+  </p>
+
+  <blockquote id="quote">
     Die Welt, die wir beschreiben, ist kein Traum. <br>
     Sie ist eine Entscheidung.
   </blockquote>
 
   <footer>
-    <p>Autor: Patrick Renges</p>
-    <p>Lizenz: <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GNU General Public License v3.0</a></p>
-    <p>Diese Seite ist <strong>freie Software</strong>. Du darfst sie kopieren, verändern und weiterverbreiten –<br> solange du die <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPLv3</a> einhältst.</p>
-    <p style="margin-top: 1rem;"><em>🚧 Weitere Inhalte folgen bald ...</em></p>
+    <p id="author">Autor: Patrick Renges</p>
+    <p id="licenseLink">Lizenz: <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GNU General Public License v3.0</a></p>
+    <p id="licenseText">Diese Seite ist <strong>freie Software</strong>. Du darfst sie kopieren, verändern und weiterverbreiten –<br> solange du die <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPLv3</a> einhältst.</p>
+    <p id="comingSoon" style="margin-top: 1rem;"><em>🚧 Weitere Inhalte folgen bald ...</em></p>
   </footer>
+
+  <!-- Sprachlogik einbinden -->
+  <script src="language.js"></script>
 </body>
 </html>

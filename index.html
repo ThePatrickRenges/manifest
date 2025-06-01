@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -7,13 +8,20 @@
   <link rel="stylesheet" href="main.css" />
 </head>
 <body>
-  <div style="text-align: right; padding: 1rem;">
-    <label id="languageLabel" for="language-select">Sprache:</label>
-    <select id="language-select">
-      <option value="de" id="opt-de">Deutsch</option>
-      <option value="en" id="opt-en">English</option>
-      <option value="ja" id="opt-ja">日本語</option>
-    </select>
+  <div style="display: flex; justify-content: space-between; align-items: center; padding: 1rem;">
+    <div class="darkmode-container">
+      <div class="toggle-switch" onclick="toggleDarkMode()">
+        <div class="slider"></div>
+      </div>
+    </div>
+    <div>
+      <label id="languageLabel" for="language-select">Sprache:</label>
+      <select id="language-select">
+        <option value="de" id="opt-de">Deutsch</option>
+        <option value="en" id="opt-en">English</option>
+        <option value="ja" id="opt-ja">日本語</option>
+      </select>
+    </div>
   </div>
 
   <h1 id="title">🌍 Manifest der Einheit und Menschlichkeit</h1>
@@ -45,5 +53,6 @@
   </footer>
 
   <script src="language.js"></script>
+  <script src="darkmode.js"></script>
 </body>
 </html>

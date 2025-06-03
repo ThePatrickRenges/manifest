@@ -1,0 +1,38 @@
+{
+  "languageLabel": "Język:",
+  "opt-de": "Niemiecki",
+  "opt-en": "Angielski",
+  "opt-pl": "Polski",
+  "opt-ja": "Japoński",
+
+  "openSourceTitle": "🔗 Rekomendacje Open Source",
+  "linkLinuxGuides": "<a href=\"https://www.linuxguides.de/\" target=\"_blank\">LinuxGuides – Wiedza o Linuksie</a>",
+  "linkLibreWorkspace": "<a href=\"https://www.libre-workspace.org/\" target=\"_blank\">Libre Workspace – Open Source dla ludzi i społeczeństwa</a>",
+  "linkFirefox": "<a href=\"https://www.mozilla.org/pl/firefox/new/\" target=\"_blank\">Firefox – Wolna i bezpieczna przeglądarka internetowa</a>",
+
+  "title": "🌍 Manifest jedności i człowieczeństwa",
+  "intro1": "Życie, jakie znamy, to iluzja.",
+  "intro2": "Świat, w którym ludzie nie współbrzmią, jest źle zbudowany.",
+
+  "visionTitle": "🌱 Nasza wizja: Świat harmonii",
+  "visionList": "<ul><li>Bez pieniędzy, rynku, firm.</li><li>Bez własności, zysku, konkurencji.</li><li>Bez państw, granic, narodów.</li><li>Bez wyzysku – ludzi, zwierząt i natury.</li><li>Bez sztucznych podziałów między technologią a duchowością, ciałem a umysłem, człowiekiem a zwierzęciem.</li><li>Świat, w którym nauka i empatia idą ręka w rękę.</li><li>Świat agnostyczny lub ateistyczny – wolny od religijnego przymusu, ale pełen człowieczeństwa.</li><li>Otwarte wiedza, wolna edukacja, open source w technologii i myśleniu.</li></ul>",
+
+  "instead": "Zamiast tego:",
+  "valuesList": "<ul><li>Dobro wspólne dla wszystkich.</li><li>Wolność przez wspólnotę.</li><li>Edukacja dla świadomości, nie posłuszeństwa.</li><li>Technologia jako narzędzie wyzwolenia, nie kontroli.</li><li>Wiedza jako dobro wspólne, nie towar.</li><li>Nauka jako droga do prawdy – bez ideologii.</li></ul>",
+
+  "demandTitle": "🙊 Czego żądamy",
+  "demand1": "Nie żądamy rządu, nie żądamy partii – żądamy nowego myślenia.",
+  "demand2": "Myślenia wolnego od władzy, posiadania i statusu.<br>Życia, które pyta nie o zysk, lecz o sens.<br>Systemu, który nie zarządza, lecz karmi.",
+  "demandList": "<ul><li>Zakończyć wojny, bo nikt już nie jest wrogiem.</li><li>Zniesienie handlu, bo nikt już nie musi niczego sprzedawać.</li><li>Zlikwidować granice, bo nikt nie chce być oddzielony.</li><li>Zakończyć wyzysk, bo każde życie ma równą wartość.</li><li>Wzmocnić empatię jako fundament wszelkiego działania.</li><li>Otwarta technologia, która służy wszystkim.</li></ul>",
+
+  "utopiaTitle": "🌌 Utopia? Tak. I co z tego?",
+  "utopia1": "Tylko dlatego, że jeszcze nie istnieje, nie znaczy, że nie jest możliwa.<br>Wszystkie systemy, które dziś uważamy za \"normalne\", kiedyś były tylko ideami.<br>Nasza utopia to nie ucieczka – to kierunek. Drogowskaz do lepszej, bardziej ludzkiej przyszłości.",
+  "utopia2": "Jesteśmy jednością – ludzie, zwierzęta, natura, maszyny.<br>Tylko razem znajdziemy pokój. Nie w rywalizacji, lecz w połączeniu.",
+
+  "quote": "Świat, który opisujemy, nie jest snem.<br>To wybór.",
+
+  "author": "Autor: Patrick Renges",
+  "licenseLink": "<a href=\"https://www.gnu.org/licenses/gpl-3.0.html\" target=\"_blank\">GNU General Public License v3.0</a>",
+  "licenseText": "Ta strona to wolne oprogramowanie. Możesz ją kopiować, modyfikować i rozpowszechniać – pod warunkiem przestrzegania GPLv3.",
+  "comingSoon": "🚧 Więcej treści już wkrótce ..."
+}

@@ -2,31 +2,37 @@
   "languageLabel": "Language:",
   "opt-de": "German",
   "opt-en": "English",
+  "opt-pl": "Polish",
   "opt-ja": "Japanese",
+
+  "openSourceTitle": "🔗 Open Source Recommendations",
+  "linkLinuxGuides": "<a href=\"https://www.linuxguides.de/\" target=\"_blank\">LinuxGuides – Knowledge about Linux</a>",
+  "linkLibreWorkspace": "<a href=\"https://www.libre-workspace.org/\" target=\"_blank\">Libre Workspace – Open Source for People & Society</a>",
+  "linkFirefox": "<a href=\"https://www.mozilla.org/en/firefox/new/\" target=\"_blank\">Firefox – Free and Secure Web Browser</a>",
 
   "title": "🌍 Manifest of Unity and Humanity",
   "intro1": "Life as we know it is an illusion.",
-  "intro2": "A world in which humans don’t live in harmony is built on a wrong foundation.",
+  "intro2": "A world where people do not harmonize is built incorrectly.",
 
   "visionTitle": "🌱 Our Vision: A World of Harmony",
-  "visionList": "<ul><li>No money, no market, no corporations.</li><li>No ownership, no profit, no competition.</li><li>No state, no border, no nation.</li><li>No exploitation – not of people, animals, or nature.</li><li>No artificial division between technology and spirituality, body and mind, humans and animals.</li><li>A world where science and empathy go hand in hand.</li><li>Agnostic or atheistic – free from religious compulsion but full of humanity.</li><li>Open knowledge, free education, open source in tech and thinking.</li></ul>",
+  "visionList": "<ul><li>No money, no market, no companies.</li><li>No property, no profit, no competition.</li><li>No state, no borders, no nations.</li><li>No exploitation – neither of people, animals, nor nature.</li><li>No artificial separation between technology and spirituality, body and mind, human and animal.</li><li>A world where science and empathy go hand in hand.</li><li>Agnostic or atheistic – free from religious coercion, but full of humanity.</li><li>Open knowledge, free education, open source in technology and thinking.</li></ul>",
 
   "instead": "Instead:",
-  "valuesList": "<ul><li>Common good for all.</li><li>Freedom through connection.</li><li>Education for awareness, not obedience.</li><li>Technology as a tool for liberation, not control.</li><li>Knowledge as a common good, not a commodity.</li><li>Science as a path to truth – without ideology.</li></ul>",
+  "valuesList": "<ul><li>Common good for all.</li><li>Freedom through connectedness.</li><li>Education for awareness, not obedience.</li><li>Technology as a tool of liberation, not control.</li><li>Knowledge as a common good, not a commodity.</li><li>Science as a path to truth – without ideology.</li></ul>",
 
   "demandTitle": "🙊 What We Demand",
-  "demand1": "We demand no government, no party – we demand new thinking.",
-  "demand2": "A mindset free from power, possessions, and status.<br>A life that seeks meaning, not profit.<br>A system that nurtures instead of managing.",
-  "demandList": "<ul><li>End wars – because no one is an enemy anymore.</li><li>Abolish trade – because no one needs to sell anymore.</li><li>Dissolve borders – because no one wants to be separated.</li><li>End exploitation – because all life has equal value.</li><li>Strengthen empathy – as the foundation of all action.</li><li>Open technology – for the benefit of all.</li></ul>",
+  "demand1": "We demand no government, we demand no party – we demand new thinking.",
+  "demand2": "Thinking that detaches from power, possession, and status.<br>A life that doesn't ask for profit, but for meaning.<br>A system that doesn't manage, but nourishes.",
+  "demandList": "<ul><li>End wars, because no one is an enemy anymore.</li><li>Abolish trade, because no one needs to sell anything anymore.</li><li>Dissolve borders, because no one wants to be separated anymore.</li><li>End exploitation, because all lives are equally valuable.</li><li>Strengthen empathy as the basis of all actions.</li><li>Open technology that benefits everyone.</li></ul>",
 
-  "utopiaTitle": "🌌 A Utopia? Yes. So what?",
-  "utopia1": "Just because it doesn’t exist yet doesn’t mean it’s impossible.<br>All systems we see as 'normal' today were once just ideas.<br>Our utopia is not an escape – it’s a direction. A path toward a better, more humane future.",
-  "utopia2": "We are one unity – humans, animals, nature, machines.<br>Only together can we find peace. Not through competition, but through connection.",
+  "utopiaTitle": "🌌 A Utopia? Yes. And?",
+  "utopia1": "Just because it doesn't exist yet doesn't mean it's not possible.<br>All systems we consider \"normal\" today were once just ideas.<br>Our utopia is not an escape – it's a direction. A guide to a better, more human future.",
+  "utopia2": "We are one – humans, animals, nature, machines.<br>Only together will we find peace. Not in competition, but in connection.",
 
   "quote": "The world we describe is not a dream.<br>It is a choice.",
 
   "author": "Author: Patrick Renges",
   "licenseLink": "<a href=\"https://www.gnu.org/licenses/gpl-3.0.html\" target=\"_blank\">GNU General Public License v3.0</a>",
-  "licenseText": "This site is free software. You may copy, modify, and distribute it –<br>as long as you follow the GPLv3.",
+  "licenseText": "This site is free software. You may copy, modify, and distribute it – as long as you comply with the GPLv3.",
   "comingSoon": "🚧 More content coming soon ..."
 }

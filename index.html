@@ -8,6 +8,24 @@
   <link rel="stylesheet" href="main.css" />
 </head>
 <body>
+  <section id="statSection" style="margin-top: 3rem;">
+  <h2>📊 Besucherstatistik (letzte 30 Tage)</h2>
+  <p id="animatedVisitorCount">Lade Besucherzahl …</p>
+
+  <div id="countryChartWrapper">
+    <div id="countryChart"></div>
+  </div>
+
+  <p style="font-size: small; color: gray;">
+    Quelle: <a href="https://plausible.io" target="_blank" rel="noopener">Plausible Analytics</a> (DSGVO-konform, keine Cookies)
+  </p>
+</section>
+
+<p style="font-size: 0.8rem;">
+Diese Statistik basiert auf anonymen Zugriffen. Keine Cookies, keine IP-Profile. Nur um zu zeigen, ob diese Seite genutzt wird – und aus welchen Ländern Besucher kommen.
+</p>
+
+
   <div style="display: flex; justify-content: space-between; align-items: center; padding: 1rem;">
     <div class="darkmode-container">
       <div class="toggle-switch" onclick="toggleDarkMode()">
@@ -62,5 +80,6 @@
 
   <script src="language.js"></script>
   <script src="darkmode.js"></script>
+  <script src="analytics.js"></script>
 </body>
 </html>

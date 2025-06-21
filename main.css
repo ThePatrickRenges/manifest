@@ -12,6 +12,23 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 
+#countryChartWrapper {
+  max-width: 500px;
+  margin-top: 1rem;
+}
+
+.country-bar {
+  background-color: #4caf50;
+  height: 1.2rem;
+  margin: 0.3rem 0;
+  color: white;
+  text-align: right;
+  padding-right: 0.5rem;
+  font-size: 0.9rem;
+  border-radius: 3px;
+}
+
+
 h1, h2, h3 {
   color: #222;
 }

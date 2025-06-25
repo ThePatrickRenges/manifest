@@ -12,7 +12,7 @@ Ein Manifest als digitaler Wegweiser für eine Welt, in der:
 
 ## 🔧 Technik
 
-- Reines HTML & CSS
+- Reines HTML & CSS, JavaScript, Json
 - Responsives Layout
 - Keine Abhängigkeiten oder externen Bibliotheken
 - Vollständig offline-fähig

@@ -11,20 +11,63 @@ a.button:hover {
   background: var(--accent-color-hover, #555);
 }
 
+/* 🌤️ Light Mode BODY */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
+  background-color: rgba(255, 255, 255, 0.85); /* transparenter heller Hintergrund */
   color: #333;
   max-width: 800px;
   margin: 2rem auto;
   padding: 2rem;
-  background: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   border-radius: 12px;
+  backdrop-filter: blur(4px);
   transition: background-color 0.3s, color 0.3s;
 }
 
+/* 🌙 DARK MODE OVERRIDES */
+body.dark {
+  background-color: rgba(20, 20, 20, 0.75); /* transparenter dunkler Hintergrund */
+  color: #ddd;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3 {
+  color: #f5f5f5;
+}
+
+body.dark blockquote {
+  border-left: 3px solid #aaa;
+  color: #aaa;
+}
+
+body.dark footer {
+  color: #999;
+  border-top: 1px solid #555;
+}
+
+/* 📸 Hintergrundbild mit Blur-Effekt */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url('stuff/img/E19F1665-F091-4B63-930A-6053B20BDAD5.png') center/cover no-repeat;
+  z-index: -1;
+  filter: blur(5px) brightness(0.7);
+  opacity: 0.35;
+  pointer-events: none;
+  transition: filter 0.4s, opacity 0.4s;
+}
+
+body.dark::before {
+  filter: blur(5px) brightness(0.4);
+  opacity: 0.25;
+}
+
+/* 📊 Statistikbereich */
 #countryChartWrapper {
   max-width: 500px;
   margin-top: 1rem;
@@ -41,9 +84,13 @@ body {
   border-radius: 3px;
 }
 
-
+/* 🧠 Typografie & Struktur */
 h1, h2, h3 {
   color: #222;
+}
+
+body.dark h1, body.dark h2, body.dark h3 {
+  color: #f0f0f0;
 }
 
 h1 {
@@ -77,29 +124,6 @@ footer {
   font-size: 0.9rem;
   color: #666;
   text-align: center;
-}
-
-/* 🌙 DARK MODE OVERRIDES */
-body.dark {
-  background-color: #1e1e1e;
-  color: #ddd;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-}
-
-body.dark h1,
-body.dark h2,
-body.dark h3 {
-  color: #f5f5f5;
-}
-
-body.dark blockquote {
-  border-left: 3px solid #aaa;
-  color: #aaa;
-}
-
-body.dark footer {
-  color: #999;
-  border-top: 1px solid #555;
 }
 
 /* 🌗 DARK MODE TOGGLE SWITCH */

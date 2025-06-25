@@ -1,3 +1,16 @@
+a.button {
+  padding: 0.5rem 1rem;
+  background: var(--accent-color, #333);
+  color: #fff;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+a.button:hover {
+  background: var(--accent-color-hover, #555);
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Forum – Manifest</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <!-- Navigationsbereich -->
+  <header style="display: flex; justify-content: space-between; align-items: center; padding: 1rem;">
+    <div>
+      <h1 style="margin: 0;">🌍 Manifest</h1>
+    </div>
+    <nav>
+      <a href="index.html" style="padding: 0.5rem 1rem; background: var(--accent-color, #444); color: white; border-radius: 999px; text-decoration: none; font-weight: bold;">Zurück</a>
+    </nav>
+  </header>
+
+  <!-- Darkmode & Sprachumschalter -->
+  <div style="display: flex; justify-content: space-between; align-items: center; padding: 1rem;">
+    <div class="darkmode-container">
+      <div class="toggle-switch" onclick="toggleDarkMode()">
+        <div class="slider"></div>
+      </div>
+    </div>
+    <div>
+      <label id="languageLabel" for="language-select">Sprache:</label>
+      <select id="language-select">
+        <option value="de" id="opt-de">Deutsch</option>
+        <option value="pl" id="opt-pl">Polski</option>
+        <option value="en" id="opt-en">English</option>
+        <option value="ja" id="opt-ja">日本語</option>
+        <option value="he" id="opt-he">שפה</option>
+        <option value="ar" id="opt-ar">اللغة</option>
+        <option value="ro" id="opt-ro">Limbă</option>
+        <option value="ru" id="opt-ru">Язык</option>
+        <option value="zh" id="opt-zh">语言</option>
+        <option value="ko" id="opt-ko">언어</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Hauptinhalt -->
+  <main style="text-align: center; margin-top: 4rem;">
+    <h2>🛠️ Forum</h2>
+    <p style="font-size: 1.2rem;">🚧 Diese Seite ist im Aufbau.<br>Coming Soon ...</p>
+  </main>
+
+  <!-- Skripte -->
+  <script src="language.js"></script>
+  <script src="darkmode.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "languageLabel": "Limbă:",
+  "opt-de": "Germană",
+  "opt-en": "Engleză",
+  "opt-ja": "Japoneză",
+
+  "openSourceTitle": "🔗 Recomandări Open-Source",
+  "linkLinuxGuides": "LinuxGuides – Cunoștințe despre Linux",
+  "linkLibreWorkspace": "Libre Workspace – Open Source pentru oameni și societate",
+  "linkFirefox": "Firefox – Browser web liber și sigur",
+
+  "title": "🌍 Manifestul unității și umanității",
+  "intro1": "Viața, așa cum o cunoaștem, este o iluzie.",
+  "intro2": "O lume în care oamenii nu sunt în armonie este construită greșit.",
+
+  "visionTitle": "🌱 Viziunea noastră: O lume în armonie",
+  "visionList": "<ul><li>Fără bani, fără piață, fără companii.</li><li>Fără proprietate, fără profit, fără competiție.</li><li>Fără stat, fără granițe, fără națiune.</li><li>Fără exploatare – nici a oamenilor, nici a animalelor, nici a naturii.</li><li>Fără separare artificială între tehnologie și spiritualitate, corp și minte, om și animal.</li><li>O lume în care știința și empatia merg mână în mână.</li><li>O viziune agnostică sau ateistă – fără constrângeri religioase, dar plină de umanitate.</li><li>Cunoștințe deschise, educație liberă, open-source în tehnologie și gândire.</li></ul>",
+
+  "instead": "În schimb:",
+  "valuesList": "<ul><li>Binele comun pentru toți.</li><li>Libertate prin conexiune.</li><li>Educație pentru conștientizare, nu pentru supunere.</li><li>Tehnologie ca instrument de eliberare, nu de control.</li><li>Cunoaștere ca bun comun, nu ca marfă.</li><li>Știință ca drum spre adevăr – fără ideologie.</li></ul>",
+
+  "demandTitle": "🙊 Ce cerem",
+  "demand1": "Nu cerem un guvern, nu cerem un partid – cerem o nouă gândire.",
+  "demand2": "O gândire eliberată de putere, posesie și statut.<br>O viață care caută sens, nu profit.<br>Un sistem care nu administrează, ci hrănește.",
+  "demandList": "<ul><li>Să încheiem războaiele, pentru că nu mai există dușmani.</li><li>Să abolim comerțul, pentru că nu mai e nimic de vândut.</li><li>Să desființăm granițele, pentru că nimeni nu vrea să fie separat.</li><li>Să oprim exploatarea, pentru că toate viețile au aceeași valoare.</li><li>Să întărim empatia, ca bază a tuturor acțiunilor.</li><li>Tehnologie deschisă, care servește tuturor.</li></ul>",
+
+  "utopiaTitle": "🌌 O utopie? Da. Și?",
+  "utopia1": "Doar pentru că nu există încă nu înseamnă că nu este posibil.<br>Toate sistemele pe care le considerăm astăzi „normale” au fost cândva doar idei.<br>Utopia noastră nu este o evadare – este o direcție. Un ghid spre un viitor mai bun, mai uman.",
+  "utopia2": "Suntem o unitate – oameni, animale, natură, mașini.<br>Doar împreună putem găsi pacea. Nu în competiție, ci în conexiune.",
+
+  "quote": "Lumea pe care o descriem nu este un vis.<br>Este o alegere.",
+
+  "author": "Autor: Patrick Renges",
+  "licenseLink": "<a href=\"https://www.gnu.org/licenses/gpl-3.0.html\" target=\"_blank\">Licența publică generală GNU v3.0</a>",
+  "licenseText": "Acest site este software liber. Îl poți copia, modifica și redistribui – atâta timp cât respecți GPLv3.",
+  "comingSoon": "🚧 Mai multe conținuturi vor fi adăugate în curând ..."
+}

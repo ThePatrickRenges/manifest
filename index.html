@@ -13,9 +13,9 @@
   <!-- 📲 Open Graph Vorschau (z. B. für ChatGPT, WhatsApp, Social Media) -->
   <meta property="og:title" content="Manifest der Einheit" />
   <meta property="og:description" content="Eine Welt der Harmonie, Offenheit und Menschlichkeit – unser Manifest für eine bessere Zukunft." />
-  <meta property="og:image" content="https://deine-domain.de/stuff/img-logo/image.png" />
+  <meta property="og:image" content="https://thepatrickrenges.github.io/manifest/stuff/img-logo/image.png" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://deine-domain.de/" />
+  <meta property="og:url" content="https://thepatrickrenges.github.io/manifest/forum.html" />
 
   <!-- 🎨 Optionale Farbgestaltung (z. B. für mobile Browser) -->
   <meta name="theme-color" content="#000000" />
@@ -57,21 +57,11 @@
     </div>
   </div>
 
-  <!-- 📊 Besucherstatistik -->
-  <section id="statSection" style="margin-top: 3rem;">
-    <h2>📊 Visitor statistics (last 30 days)</h2>
-    <p id="animatedVisitorCount">Loading visitor count…</p>
-    <div id="countryChartWrapper">
-      <div id="countryChart"></div>
-    </div>
-    <p style="font-size: small; color: gray;">
-      Quelle: <a href="https://plausible.io" target="_blank" rel="noopener">Plausible Analytics</a> (GDPR compliant, no cookies)
-    </p>
+  <!-- 📊 Besucherstatistik (lokal, ohne Backend) -->
+  <section id="statSection" style="margin-top: 3rem; text-align: center;">
+    <h2>📊 Besucherzähler (lokal)</h2>
+    <p>Diese Seite wurde <span id="visit-count">0</span> Mal in deinem Browser besucht.</p>
   </section>
-
-  <p style="font-size: 0.8rem;">
-    These statistics are based on anonymous access. No cookies, no IP profiles. They are used solely to show whether this site is being used – and which countries visitors come from.
-  </p>
 
   <!-- 🧭 Hauptinhalte -->
   <h1 id="title">🌍 Manifest der Einheit und Menschlichkeit</h1>
@@ -117,6 +107,6 @@
   <!-- 🔌 Scripts -->
   <script src="language.js"></script>
   <script src="darkmode.js"></script>
-  <script src="analytics.js"></script>
+  <script src="counter.js"></script>
 </body>
 </html>
